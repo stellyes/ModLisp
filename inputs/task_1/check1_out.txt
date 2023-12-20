@@ -1,0 +1,53 @@
+> (add 1 (neg (exp (log 1))) (abs (mult -1 -1.0 1)) (sub -22.5 -21.5) (div 15 4) (neg (remainder 15 4)) (div 5. 4.) (sub (remainder -5.25 4) 4) (div (log (exp2 16)) (log 2)) (neg (pow 2 4)) (sqrt 17.64) (cbrt -74.088) (hypot 1.1 2.2 2.2 6.6 6.6) (max (log (exp -9.9)) (neg (max 10 8 11.17)) (sub (remainder -21 11) 11)) (min (add) (mult) (abs (pow -4.7 7))))
+WARNING: add called with no operands, 0 returned!
+WARNING: mult called with no operands! 1 returned!
+Double : 0.000000
+
+> 1
+Integer : 1
+
+> (neg (exp (log 1)))
+Double : -1.000000
+
+> (abs (mult -1 -1.0 1))
+Double : 1.000000
+
+> (sub -22.5 -21.5)
+Double : -1.000000
+
+> (div 15 4)
+Integer : 3
+
+> (neg (remainder 15 4))
+Integer : -3
+
+> (div 5. 4.)
+Double : 1.250000
+
+> (sub (remainder -5.25 4) 4)
+Double : -1.250000
+
+> (div (log (exp2 16)) (log 2))
+Double : 16.000000
+
+> (neg (pow 2 4))
+Integer : -16
+
+> (sqrt 17.64)
+Double : 4.200000
+
+> (cbrt -74.088)
+Double : -4.200000
+
+> (hypot 1.1 2.2 2.2 6.6 6.6)
+Double : 9.900000
+
+> (max (log (exp -9.9)) (neg (max 10 8 11.17)) (sub (remainder -21 11) 11))
+Double : -9.900000
+
+> (min (add) (mult) (abs (pow -4.7 7)))
+WARNING: add called with no operands, 0 returned!
+WARNING: mult called with no operands! 1 returned!
+Integer : 0
+
+Process finished with exit code 0
